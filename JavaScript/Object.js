@@ -1,10 +1,10 @@
-function nestedObject(obj){
-    let sum=0;
-    for(let key in obj){
+function nestedObject(obj) {
+    let sum = 0;
+    for (let key in obj) {
         const value = obj[key]
-        if(typeof value === 'number' ){
+        if (typeof value === 'number') {
             sum += value;
-        }else if( typeof obj === 'object' && obj !== null){
+        } else if (typeof obj === 'object' && obj !== null) {
             sum += nestedObject(value);
         }
     }
@@ -12,3 +12,6 @@ function nestedObject(obj){
 }
 const objWithArray = { a: 1, b: { c: [2, 3], d: 4 } };
 console.log(nestedObject(objWithArray)); // Output: 10
+
+
+

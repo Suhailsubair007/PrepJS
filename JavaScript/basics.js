@@ -92,11 +92,11 @@ const x = function (n) { // anonymous function
 // Closure
 // ===========================
 
-// for (let i = 0; i < 3; i++) { // changed var to let to create block scope
-//     setTimeout(() => {
-//         console.log(i);
-//     }, 1000);
-// }
+for (let i = 0; i < 3; i++) { // changed var to let to create block scope
+    setTimeout(() => {
+        console.log(i);
+    }, 1000);
+}
 
 // ===========================
 // Closure Example with Private Counter

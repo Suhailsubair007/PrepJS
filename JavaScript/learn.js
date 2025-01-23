@@ -44,3 +44,5 @@ let person = {
 function greet(name,puctuation){
     console.log(`HI ${this.name}`)
 }
+
+
