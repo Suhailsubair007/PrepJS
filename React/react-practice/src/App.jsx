@@ -4,6 +4,10 @@ import Counter from "./Counter"
 import ParentToChilld from "./ParentToChilld";
 import InputEqualOrNot from "./InputEqualOrNot";
 import ToDo from "./ToDo";
+import Timer from "./Timer";
+import InputTracker from "./Ref";
+import AutoCounter from "./AutoCounter";
+import Useref from "./Useref";
 function App() {
 
   // const array = ['suhail', 'akshay', 'ajmal'];
@@ -31,7 +35,12 @@ function App() {
       {/* <Counter name={user.name} age={user.age} /> */}
 
 {/* <InputEqualOrNot/> */}
-<ToDo/>
+{/* <ToDo/> */}
+{/* <Timer/> */}
+{/* <InputTracker/> */}
+<AutoCounter/>
+<Useref/>
+
     </>
   )
 }
